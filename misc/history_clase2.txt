@@ -1,0 +1,577 @@
+    1  ls -l -a
+    2  cd documentos
+    3  cd Documentos
+    4  echo "hello wordcd Documentos"
+    5  echo 'hello world!!'
+    6  sudo apt install terminator
+    7  cd ..
+    8  uname -p
+    9  uname -ip
+   10  uname
+   11  uname -a
+   12  man uname
+   13  pwd -L
+   14  pwd -P
+   15  cd /dev/
+   16  ls
+   17  cd
+   18  cd /dev/
+   19  ls -l
+   20  man ls
+   21  sudo cat /dev/input/mouse0
+   22  echo $PATH
+   23  cd ..
+   24  VAR1 = 1
+   25  VAR=1
+   26  echo $VAR
+   27  lvar=1
+   28  echo $lvar
+   29  lvar2=2
+   30  echo $lvar + $lvar2
+   31  export lvar
+   32  export lvar3=123
+   33  terminal
+   34  echo lvar
+   35  echo $lvar
+   36  echo $lvar3
+   37  echo $prueba
+   38  echo lvar
+   39  echo $lvar
+   40  echo $lvar3
+   41  export prueba=1
+   42  unset prueba
+   43  echo $prueba
+   44  ls
+   45  cd ..
+   46  ls
+   47  vim /etc/passwd
+   48  pwd
+   49  cd /etc
+   50  ls -l
+   51  cd
+   52  tail -f .bash_history
+   53  ls -l
+   54  ls -l -a
+   55  history
+   56  cat .bash_history
+   57  cat .bash_rc
+   58  cat .bashrc
+   59  man calc
+   60  man cal
+   61  man grep
+   62  man passwd
+   63  man 5 passwd
+   64  man -f passwd
+   65  man -k passwd
+   66  whatis
+   67  whatis passwd
+   68  info ls
+   69  head --help
+   70  apropos ls
+   71  apropos tail
+   72  vimtutor
+   73  su academia
+   74  exit
+   75  man vim
+   76  vim texto
+   77  cd Escritorioi
+   78  cd Escritorio
+   79  cat texto texto(copia)
+   80  cat texto texto2
+   81  less texto
+   82  ls -a
+   83  cd Escritorio
+   84  ls
+   85  vim texto
+   86  dmes
+   87  dmesg | less
+   88  man less 
+   89  cat /var
+   90  cat /var/log/syslog | less
+   91  cat /var/log/syslog | more
+   92  cat /var/log/syslog | less
+   93  cd Escritorio
+   94  man file
+   95  file texto
+   96  file Sin título
+   97  file Sin título.odt
+   98  file texto
+   99  file Sin título
+  100  file Sin título 1
+  101  file Sin\ título\ 1.odt 
+  102  file Sin\ título\ 1
+  103  file Sin\ título\ 1.odt 
+  104  ls -a
+  105  CD ..
+  106  cd ..
+  107  ls
+  108  ls -a
+  109  vimtutor
+  110  su academia -
+  111  cd Desktop
+  112  cd Escritorio
+  113  ls -lh
+  114  gunzip -l Sinttulo1.odt
+  115  ls -lh
+  116  gunzip -l Sinttulo1.odtSinttulo1.odt
+  117  gunzip -l Sinttulo1.odtSinttulo1.odtSinttulo1.odt
+  118  gunzip -l Sinttulo1.odt.gz
+  119  gunzip -l Sinttulo1.odt
+  120  ls -lh
+  121  gunzip -l texto.gz
+  122  gunzip -l texto
+  123  gunzip -l texto.txt
+  124  gunzip -l texto.txt.gz
+  125  gunzip -l texto.gz
+  126  gunzip -l texto
+  127  ls -lh
+  128  file texto
+  129  file texto.txt
+  130  gunzip -l texto.txt.gz
+  131  gunzip -l texto.txt
+  132  tar -f texto.txt
+  133  gunzip -l texto.txt
+  134  gunzip -l texto
+  135  gunzip -l texto.txt
+  136  bzip 
+  137  gunzip -l Sinttulo1.odt.gz
+  138  ls
+  139  cd 1
+  140  cd ..
+  141  zip ./Escritorio/1 /Escritorio/1
+  142  zip ./Escritorio/1 ./Escritorio/1
+  143  zip ./Escritorio/1 ./Escritorio/1/*
+  144  zip -r ./Escritorio/1 ./Escritorio/1/*
+  145  zip -r ./1 ./1/*
+  146  cd ..
+  147  ls
+  148  cd var
+  149  ls -s
+  150  ls -a
+  151  ls -al
+  152  ls 
+  153  cd Escritorio
+  154  ls
+  155  find 
+  156  ls -l
+  157  echo $UID
+  158  touch file
+  159  ls -l file
+  160  id
+  161  reboot
+  162  ls -ld /tmp/
+  163  umask
+  164  date 
+  165  date | tee
+  166  date | tee timer.txt
+  167  cd Escritorio
+  168  date | tee timer.txt
+  169  date | tee timer.txt; sleep 5;
+  170  date | tee timer.txt; sleep 5; date | tee -a timer.txt
+  171  cd Escritorio
+  172  ls > practica.txt
+  173  ~½~¬¬
+  174  ls ~> practica.txt
+  175  ls ~2> practica.txt
+  176  ls ~1> practica.txt
+  177  ls ~ 1 > practica.txt
+  178  ls ~ 1 
+  179  ls ~ 1 >> practica.txt
+  180  ls ~ 2 >> practica.txt
+  181  ls ~ 0 >> practica.txt
+  182  ls ~ 1 >> practica.txt
+  183  ls 
+  184  ls > practica.txt
+  185  echo "hola" > practica.xt
+  186  echo "hola" > practica.txt
+  187  echo "hola" >> practica.txt
+  188  cat practica.txt
+  189  date >> practica.txt
+  190  cal >> practica.txt
+  191  cal
+  192  calendar
+  193  date >> practica.txt
+  194  cat practica.txt
+  195  find /etc/ -name passwd 2> error.txt
+  196  find /etc/ -name passwd 2
+  197  find /etc/ -name passwd 
+  198  find /etc/ -name passwd >>/tmp/output.txt 2> error.txt
+  199  find /etc/ -name passwd >>output.txt 2> error.txt
+  200  cd eee
+  201  cd eee 2> error.txt
+  202  ps -au
+  203  spleep 10
+  204  sleep 10
+  205  sleep 100
+  206  fg
+  207  fg 1
+  208  sleep 100
+  209  jobs
+  210  fg 1
+  211  sleep 4
+  212  fg 1
+  213  sleep 4
+  214  sleep 10
+  215  sleep 100
+  216  fg 1
+  217  sleep 5 &
+  218  fg 1
+  219  sleep 10& sleep40& sleep400& sleep8&
+  220  ps
+  221  bash
+  222  ps
+  223  ps
+  224  jobs
+  225  ps aux
+  226  top
+  227  ls /tmp
+  228  mv data.out diego.out
+  229  cd /tmp
+  230  mv data.out diego.out
+  231  ls
+  232  touch diego
+  233  cd
+  234  touch diego
+  235  ftp 10.124.18.245
+  236  cd /tmp
+  237  dd if=/dev/zero of=data.out count=1M bs=10
+  238  file data.out 
+  239  ifconfig
+  240  ls
+  241  cd
+  242  touch diegoteama
+  243  ls
+  244  rm diegoteama
+  245  ls
+  246  touch jesusteama
+  247  rm jesusteama
+  248  touch fuerademihome
+  249  rm fuerademihome
+  250  touch queledijounavacaaotravaca
+  251  touch muuuuuuuuuuevete
+  252  ls
+  253  rm ls
+  254  rm muuuuuuuuuuevete 
+  255  rm queledijounavacaaotravaca 
+  256  su - academis
+  257  su - academia
+  258  mail
+  259  su - academia
+  260  ls ..
+  261  id
+  262  su - 
+  263  su - academia
+  264  ifconfig
+  265  locale
+  266  su - 
+  267  su - academia
+  268  postconf
+  269  netstat -latunp | grep 25
+  270  su - academia 
+  271  route
+  272  ip route list
+  273  su - academia
+  274  echo  VAR1
+  275  exit
+  276  echo $VAR1
+  277  otro _VAR=casa
+  278  otr _VAR=casa
+  279  otro_var=casa
+  280  exit 
+  281  which `nmap`
+  282  which nmap`
+  283  exit
+  284  netstat untap 
+  285  VAR1=caso
+  286  echo $VAR1
+  287  VAR1=otro
+  288  echo $VAR1
+  289  echo Este es $VAR1 caso
+  290  echo 'Este es $VAR1 caso'
+  291  ip -4 add 
+  292  VAR1=5
+  293  VAR2=otro
+  294  mi var =caso
+  295  mi_var=caso
+  296  echo $VAR1 esta es una salida $VAR2 en el mi_var
+  297  bash
+  298  export VAR1
+  299  bash
+  300  echo $otro_VAR
+  301  set | less
+  302  env | less
+  303  env | grep VAR
+  304  set | grep VAR
+  305  set | i -grep VAR
+  306  env | less
+  307  mkdir $HOME/prueba1
+  308  ls 
+  309  cd /etc/apt
+  310  echo $HOME
+  311  ls $HOME /prueba1/prueba2
+  312  mkdir $HOME /prueba1/prueba2
+  313  ls 
+  314  cd
+  315  ls  
+  316  ls * .txt
+  317  ls 
+  318  nano prog1.sh
+  319  mv prog1.sh /tmp/
+  320  cd /tmp
+  321  ls
+  322  chmod 750 prog1.sh 
+  323  ls 
+  324  ls -l
+  325  ./prog1.sh 
+  326  ls 
+  327  nano prog1.sh 
+  328  ./ prog1.sh 
+  329  ./prog1.sh 
+  330  mv prog1.sh  programa_identificador.sh
+  331  echo $PATH
+  332  cd
+  333  la
+  334  mkdir bin
+  335  ls
+  336  cp /tmp/programa_identificador.sh bin
+  337  ls bin 
+  338  programa_identificador.sh 
+  339  mv bin/programa_identificador.sh bin/prog1
+  340  ls bin
+  341  echo $PATH
+  342  cat /etc/issue.net
+  343  uname -a
+  344  ls 
+  345  nano .bashrc
+  346  cowsay Hola admin!
+  347  vim .bash_history
+  348  ls 
+  349  cd tmp
+  350  cd /tmp
+  351  dd if=/dev/zero of=/temp/data.out bs=1 count=12
+  352  dd if=/dev/zero of=/tmp/data.out bs=1 count=12
+  353  split -b 2 data out
+  354  split -b 2 data.out
+  355  cat xa *>data 2.out
+  356  cat xa * >data 2.out
+  357  cat xa * > data 2.out
+  358  cat xa * > data2.out
+  359  ls -l
+  360  cat xa* > data3.out
+  361  ls -l
+  362  split -n 4 data3.out salidas
+  363  ls
+  364  cd 
+  365  cat /tmp/dmesg.log | head -n 3 | nl
+  366  cat /tmp/dmesg.log
+  367  cat etc/passwd
+  368  cs /tmp
+  369  cd /tmp/
+  370  cat etc/paswd
+  371  cat etc/passwd
+  372  cat /etc/passed
+  373  cat /etc/passd
+  374  cat /etc/passwd
+  375  cut -d ":" -f1,4 /etc/passwd
+  376  tal /etc/passwd
+  377  tail /etc/passwd
+  378  cut -d ":" -f1,4 /etc/passwd
+  379  history
+  380  ls
+  381  none programa_identificador.sh 
+  382  cp .bash_history Documentos/history-clase1.txt
+  383  history
+  384  ls 
+  385  ls -la
+  386  ls 
+  387  which `programa`
+  388  ls -la
+  389  cd /tmp
+  390  ls
+  391  none programa_identificador.sh 
+  392  nano programa_identificador.sh 
+  393  man ls
+  394  dpkg -l |  grep linux
+  395  dmesg | less
+  396  cat /var/log/syslog | less 
+  397  man ln
+  398  su -academia
+  399  su - academia
+  400  mkdir test
+  401  mkdir folder{1,2}
+  402  mkdir folder1/proyecto/acueducto
+  403  mkdir -p folder1/proyecto/acueducto
+  404  tree
+  405  cd test
+  406  mkdir folder{1,2}
+  407  ls
+  408  tree
+  409  cd 
+  410  cd tmp
+  411  cd /tmp/
+  412  mkdir test
+  413  cd 
+  414  rm -r test
+  415  cd /tmp/
+  416  mkdir test
+  417  cd 
+  418  ls
+  419  cd /tmp/
+  420  mkdir test
+  421  ls
+  422  cd test
+  423  mkdir folder{1,2}
+  424  ls
+  425  mkdir folder1/proyecto/acueduto
+  426  tree 
+  427  cp -r folder1/proyecto/folder2
+  428  cp -r folder1/proyecto/folder2/
+  429  tree 
+  430  cp -r folder1/proyecto folder2/
+  431  sudo -su
+  432  sudo - su 
+  433  cp -r folder1/proyecto folder2/
+  434  du -l folder1
+  435  du -lh folder1
+  436  du -lb folder1
+  437  tree
+  438  touch folder1/proyecto/acueducto/file-{1,2,3}
+  439  rm -folder2
+  440  exit  
+  441  id
+  442  man fdisk 
+  443  su -academia
+  444  su - academia
+  445  ls
+  446  find . -name
+  447  find . -name Descarga
+  448  find . -name Descargas
+  449  find . -name Descarga*
+  450  find . /home -name Descarga
+  451  locate DEscargas 
+  452  locate Descargas
+  453  locate Des*
+  454  find . -name 'Des*'
+  455  mkdir Descuentos
+  456  find . -name 'Des*'
+  457  mkdir -p test/Descontrol
+  458  find . -name 'De*'
+  459  find . -name 'De*' -a -name 'Doc*'
+  460  find . -name 'De*' -o -name 'Doc*'
+  461  find . -iname 'De*' -o -name 'Doc*'
+  462  find /var/log/ -size +1G
+  463  find / name -'.conf' -ok rm {} \;
+  464  where  is grep
+  465  whereis  is grep
+  466  whereis  -m grep
+  467  whereis  -b grep
+  468  whereis -b grep
+  469  which grep  
+  470  whereis -grep | cut -d " " -f2
+  471  whereis -b grep | cut -d " " -f2
+  472  whereis -bm ls tr 
+  473  whereis -bm ls tr -m gcc 
+  474  whereis passwd
+  475  whereis - b passwd
+  476  whereis -b passwd
+  477  whereis -m passwd
+  478  man 1
+  479  man 1  passwd 
+  480  man 5  passwd 
+  481  whereis bash 
+  482  echo $pATH
+  483  echo pATH
+  484  echo $PATH
+  485  chmod 750 ping 
+  486  chmod 750 ping
+  487  cd bin
+  488  chmod 750 ping 
+  489  chmod 750 ping
+  490  type -a echo
+  491  type ls
+  492  type -a ls
+  493  type -a ll
+  494  type -a greo 
+  495  type -a grep
+  496  su - academia
+  497  cd test
+  498  vim file1
+  499  cd
+  500  su -academnia
+  501  sudo academia
+  502  exit
+  503  git config --global user.name "Bryan Rostran
+  504  exit
+  505  sudo academia
+  506  cd test/
+  507  git config --global user.name "bryanrostran"
+  508  git config --global user.mail "bryanrostran88@hotmail.com"
+  509  cat ~/.gitconfig
+  510  ls
+  511  rm file*
+  512  mkdir src
+  513  mkdir docs
+  514  mkdir misc
+  515  mkdir tools
+  516  tree
+  517  touch README.md
+  518  vim .gitignore
+  519  tree 
+  520  touch {docs,src}/.gitignore
+  521  rm docs/.gitignore 
+  522  rm src/.gitignore 
+  523  touch {docs,src,misc,tools}/.gitignore
+  524  tree -a
+  525  rm Descontrol 
+  526  echo '*.swp' >> .gitignore
+  527  cat .gitignore 
+  528  git init
+  529  tree.git
+  530  tree .git
+  531  git add --all
+  532  git status
+  533  git commit -m "Inicializacion del repo de linux"
+  534  git config --global user.email "bryanrostran88@hotmail.com"
+  535  git commit -m "Inicializacion del repo de linux"
+  536  tree
+  537  tree -a
+  538  tree
+  539  tree -a
+  540  git log
+  541  ifconfig >misc/interfces
+  542  dmesg > misc/kernel
+  543  df -lh >docs//espacios
+  544  tree
+  545  git status 
+  546  git add misc/interfces
+  547  git add docs/espacios 
+  548  git status 
+  549  git commit -m "agrego archivos de espacios e interfaces"
+  550  git log 
+  551  cp /etc/apt/sources.list misc/
+  552  git sta
+  553  git status 
+  554  tree 
+  555  vim docs/espacios 
+  556  git status
+  557  git diff docs/espacios
+  558  git status 
+  559  git add docs/espacios 
+  560  git add misc/kernel 
+  561  git status 
+  562  git commit -m "Modificacion del header de espacios y agrego archivo de kernel"
+  563  git log
+  564  git remote add origin https://github.com/bryanrostran2018/LXS1_Bryan.Rostran.git
+  565  git remote -v
+  566  git push -u origin master
+  567  cd temp
+  568  cd /tmp/
+  569  git clone https://github.com/bryanrostran2018/LXS1_Bryan.Rostran.git
+  570  ls 
+  571  cd LXS1_Bryan.Rostran/
+  572  git pull origin master 
+  573  cd tes
+  574  cd /test
+  575  cd test/
+  576  cd misc/
+  577  history > history_clase2.txt
